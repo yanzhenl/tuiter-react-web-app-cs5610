@@ -1,0 +1,111 @@
+.wd-hr-location {
+    position: relative;
+    bottom: 20px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+    background-color: darkgray;
+    outline: 0;
+    border-left: solid darkgray 100px;
+    width: 70%;
+    float: left;
+    position: relative;
+    left: 16px;
+}
+
+.wd-input-background {
+    background-color: darkgray;
+    border: 0;
+}
+
+input::placeholder {
+    background-color: darkgray;
+    color: white;
+}
+
+.wd-setting {
+    margin-right: 0;
+    width: 20px;
+    float: right;
+    position: relative;
+    right: 12px;
+}
+
+.wd-hyperlink-one {
+    float: left;
+    width: 14%;
+    color: rgb(29,161,242);
+    font-size: 15px;
+    padding: 16px;
+    border-bottom: solid 3px rgb(29,161,242);
+}
+
+.wd-hyperlink {
+    float: left;
+    width: 14%;
+    color: rgb(110,118,125);
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-c-topic {
+    font-size: 13px;
+    color: rgb(110,118,125);
+    position: relative;
+    left: 20px;
+}
+
+.wd-c-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 20px;
+}
+
+.wd-d-picture {
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: relative;
+    right: 16px;
+    border-radius: 15px;
+}
+
+.wd-d-author-name {
+    font-size: 13px;
+    color: white;
+    float: left;
+    position: relative;
+    left: 30px;
+}
+
+.wd-d-time {
+    font-size: 13px;
+    color: rgb(110,118,125);
+    float: left;
+    position: relative;
+    left: 45px;
+}
+
+.wd-d-content {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    float: left;
+    position: relative;
+    left: 20px;
+}
+
+.wd-e-topic {
+    font-size: 13px;
+    color: rgb(110,118,125);
+    float: left;
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+.wd-vertical-line {
+    color: rgb(47, 51, 54);
+    border-color: rgb(47, 51, 54);
+    margin: 0;
+    width: 1px;
+    height: 815px;
+    float: left;
+}
+
+.wd-vertical-line-right {
+    float: right;
+}
+
+.wd-hr {
+    color: rgb(47, 51, 54);
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-border {
+    color: rgb(47, 51, 54);
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    width: 700px;
+}
+
+.wd-border-down {
+    padding-bottom: 50px;
+}
+
+.wd-grid-row {
+    clear: both;
+}

@@ -1,0 +1,149 @@
+.wd-a-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 16px;
+}
+
+.wd-a-handle {
+    font-size: 13px;
+    color: rgb(110,118,125);
+    position: relative;
+    left: 16px;
+}
+
+.wd-a-position {
+    padding-top: 16px;
+}
+
+.wd-hr-position {
+    position: relative;
+    top: 12px;
+}
+
+.wd-position {
+    position: relative;
+    left: 16px;
+    top: 16px;
+}
+
+.wd-b-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+}
+
+.wd-c-author-name {
+    float: left;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 28px;
+    top: 12px;
+}
+
+.wd-c-author-handle {
+    float: left;
+    font-size: 15px;
+    color: rgb(110,118,125);
+    position: relative;
+    left: 32px;
+    top: 12px;
+}
+
+.wd-d-main {
+    float: left;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 28px;
+    top: 12px;
+    width: 506px;
+}
+
+.wd-e-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-style: solid;
+    border-color: rgb(110,118,125);
+    width: 504px;
+    height: 264px;
+    position: relative;
+    border-width: 0;
+}
+
+.wd-f-border {
+    border-radius: 15px;
+    border-color: rgb(110,118,125);
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    width: 504px;
+    height: 350px;
+    left: 75px;
+    top: 36px;
+}
+
+.wd-f-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    position: relative;
+}
+
+.wd-f-text {
+    font-size: 15px;
+    color: rgb(110,118,125);
+    margin: 0;
+    position: relative;
+    bottom: 24px;
+}
+
+.wd-f-padding {
+    padding: 12px;
+}
+
+.wd-g-icon-lightgray {
+    float: left;
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+
+.wd-g-icon-red {
+    float: left;
+    font-size: 15px;
+    color: red;
+}
+
+.wd-g-number-lightgray {
+    float: left;
+    position: relative;
+    left: 12px;
+    color: rgb(110,118,125);
+    font-size: 15px;
+    bottom: 3px;
+}
+
+.wd-g-number-red {
+    float: left;
+    position: relative;
+    left: 12px;
+    color: red;
+    font-size: 15px;
+    bottom: 3px;
+}
+
+.wd-g-width {
+    width: 126px;
+    position: relative;
+    left: 75px;
+    float: left;
+}
+
+.wd-g-border {
+    position: relative;
+    top: 24px;
+}
