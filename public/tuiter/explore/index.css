@@ -1,111 +1,178 @@
-.wd-hr-location {
-    position: relative;
-    bottom: 20px;
-}
-
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
-    background-color: darkgray;
-    outline: 0;
-    border-left: solid darkgray 100px;
-    width: 70%;
-    float: left;
-    position: relative;
-    left: 16px;
-}
-
-.wd-input-background {
-    background-color: darkgray;
-    border: 0;
-}
-
 input::placeholder {
-    background-color: darkgray;
-    color: white;
-}
-
-.wd-setting {
-    margin-right: 0;
-    width: 20px;
-    float: right;
-    position: relative;
-    right: 12px;
-}
-
-.wd-hyperlink-one {
-    float: left;
-    width: 14%;
-    color: rgb(29,161,242);
-    font-size: 15px;
-    padding: 16px;
-    border-bottom: solid 3px rgb(29,161,242);
-}
-
-.wd-hyperlink {
-    float: left;
-    width: 14%;
-    color: rgb(110,118,125);
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-float-done {
-    clear: both;
-}
-
-.wd-c-topic {
+    background-color: #F1F1F1;
+    color: gray;
     font-size: 13px;
-    color: rgb(110,118,125);
+}
+
+.col-6.not-padding {
+    padding: 0px;
+}
+
+.col-3.not-padding {
+    padding: 0px;
+}
+
+.wd-item-height-40 {
+    height: 40px;
+}
+
+.wd-img-75 {
+    height: 75px;
+    width: 75px;
+}
+
+.wd-img-100 {
+    height: 100%;
+    width: 100%;
+}
+
+.wd-border-color-lightgray {
+    border: #F1F1F1 solid;
+}
+
+.wd-background-lightgray {
+    background-color: #F1F1F1;
+}
+
+.wd-border-transparent {
+    border-color: transparent;
+}
+
+.wd-position-relative-left-10 {
+    position: relative;
+    left: 10px;
+}
+
+wd-position-relative-left-20 {
     position: relative;
     left: 20px;
 }
 
-.wd-c-title {
+.wd-text-indent {
+    text-indent: 35px;
+}
+
+.wd-relative-right-30 {
+    position: relative;
+    right: 30px;
+}
+
+.wd-relative-top-3 {
+    position: relative;
+    top: 3px;
+}
+
+.wd-padding-right-30 {
+    padding-right: 30px;
+}
+
+.wd-padding-left-3 {
+    padding-left: 3px;
+}
+
+.wd-padding-right-3 {
+    padding-right: 3px;
+}
+
+.wd-padding-0 {
+    padding: 0px;
+}
+
+.wd-vertically-centered {
+    display: flex;
+    align-items: center;
+}
+
+.wd-relative-left-4 {
+    position: relative;
+    left: 4px;
+}
+
+.wd-absolute-onimg {
+    position: absolute;
+    top: 33%;
+    left: 16px;
+    z-index: 5;
+}
+
+.wd-absolute-onimg-space {
+    position: absolute;
+    top: 38%;
+    left: 16px;
+    z-index: 5;
+    font-size: 25px;
+}
+
+.wd-zindex-bring-to-front {
+    z-index: 5;
+    position: relative;
+}
+
+.wd-color-lightgray {
+    color: rgb(110,118,125);
+}
+
+.wd-color-darkgray {
+    color: #525353;
+}
+
+.wd-color-black {
+    color: black;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-font-13px {
+    font-size: 13px;
+}
+
+.wd-font-8px {
+    font-size: 8px;
+}
+
+.wd-font-10px {
+    font-size: 10px;
+}
+
+.wd-font-15px {
+    font-size: 15px;
+}
+
+.wd-font-bold {
     font-weight: bold;
-    font-size: 15px;
-    color: white;
-    position: relative;
-    left: 20px;
 }
 
-.wd-d-picture {
-    width: 100px;
-    height: 100px;
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
     float: right;
-    position: relative;
-    right: 16px;
-    border-radius: 15px;
 }
 
-.wd-d-author-name {
-    font-size: 13px;
-    color: white;
-    float: left;
-    position: relative;
-    left: 30px;
+.wd-twitter-blue {
+    color: #00acee;
 }
 
-.wd-d-time {
-    font-size: 13px;
-    color: rgb(110,118,125);
-    float: left;
-    position: relative;
-    left: 45px;
+.btn-primary.twitter {
+    background-color: #00acee;
+    border-color: #00acee;
 }
 
-.wd-d-content {
+.list-group.wd-rounded-corner {
+    border-radius: 20px;
+}
+
+.active.background-color {
+    background-color: white;
+    color: black;
+    border-color: transparent;
     font-weight: bold;
-    font-size: 15px;
-    color: white;
-    float: left;
-    position: relative;
-    left: 20px;
 }
 
-.wd-e-topic {
-    font-size: 13px;
-    color: rgb(110,118,125);
-    float: left;
-    position: relative;
-    left: 20px;
+.wd-highlight {
+    border-bottom: #00acee solid 3px;
+    width: 48px;
 }

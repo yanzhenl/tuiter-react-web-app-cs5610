@@ -3,77 +3,220 @@
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
-
-        <link href="index.css"
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
               rel="stylesheet"/>
-        <link href="../style.css"
+        <link href="index.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
               rel="stylesheet"/>
     </head>
     <body>
-        <a href="../navigation.html">Back</a>
-        <hr class="wd-hr">
-        <hr class="wd-vertical-line">
-        <div class="wd-rounded-corners-all-around">
-            <input class="wd-input-background"
-                   id="search" placeholder="Search Tuiter">
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-3 col-xl-2 col-xxl-3 col-lg-1 col-md-2 col-sm-2">
+                    <div class="list-group wd-font-15px">
+                        <a class="list-group-item wd-border-transparent" href="#"><i class="fa fa-t" style="color: #00acee"></i></a>
+                        <a class="list-group-item wd-border-transparent" href="#">
+                            <i class="fa fa-home wd-padding-right-3 wd-float-left wd-relative-top-3 wd-color-darkgray"></i>
+                            <div class="d-none d-xl-block wd-color-darkgray">Home</div></a>
+                        <a class="list-group-item active background-color wd-border-transparent" href="#">
+                            <i class="fa fa-hashtag wd-padding-right-3 wd-float-left wd-relative-top-3"></i>
+                            <div class="d-none d-xl-block">Explore</div></a>
+                        <a class="list-group-item wd-border-transparent" href="#">
+                            <i class="fa-regular fa-bell wd-padding-right-3 wd-float-left wd-relative-top-3 wd-color-darkgray"></i>
+                            <div class="d-none d-xl-block wd-color-darkgray">Notifications</div></a>
+                        <a class="list-group-item wd-border-transparent" href="#">
+                            <i class="fa-regular fa-envelope wd-padding-right-3 wd-float-left wd-relative-top-3 wd-color-darkgray"></i>
+                            <div class="d-none d-xl-block wd-color-darkgray">Messages</div></a>
+                        <a class="list-group-item wd-border-transparent" href="#">
+                            <i class="fa-regular fa-bookmark wd-padding-right-3 wd-float-left wd-relative-top-3 wd-color-darkgray"></i>
+                            <div class="d-none d-xl-block wd-color-darkgray">Bookmarks</div></a>
+                        <a class="list-group-item wd-border-transparent" href="#">
+                            <i class="fa-regular fa-fire wd-padding-right-3 wd-float-left wd-relative-top-3 wd-color-darkgray"></i>
+                            <div class="d-none d-xl-block wd-color-darkgray">Top Articles</div></a>
+                        <a class="list-group-item wd-border-transparent" href="#">
+                            <i class="fa-regular fa-user wd-padding-right-3 wd-float-left wd-relative-top-3 wd-color-darkgray"></i>
+                            <div class="d-none d-xl-block wd-color-darkgray">Profile</div></a>
+                        <a class="list-group-item wd-border-transparent" href="#">
+                            <i class="fa fa-ellipsis-h wd-padding-right-3 wd-float-left wd-relative-top-3 wd-color-darkgray"></i>
+                            <div class="d-none d-xl-block wd-color-darkgray">More</div></a>
+                    </div>
+                    <button type="button" class="btn btn-primary twitter col-12 rounded-pill mt-1 btn-sm">Tweet</button>
+                </div>
+
+                <div class="col-5 col-xl-5 col-xxl-5 col-lg-6 col-md-8 col-sm-10">
+                    <div class="row">
+                        <div class="col-11 wd-position-relative-left-10">
+                            <i class="fa-regular fa-search wd-zindex-bring-to-front wd-color-lightgray"></i>
+                            <input class="rounded-pill col-11 wd-border-color-lightgray wd-text-indent
+                            wd-relative-right-30 wd-background-lightgray"
+                                   type="text" placeholder="Search Twitter">
+                        </div>
+                        <div class="col-1">
+                            <a href="explore-settings.html"><i class="fa fa-cog mt-2 wd-color-lightgray"></i></a>
+                        </div>
+                    </div>
+
+                    <ul class="nav mt-1">
+                        <li class="nav-item">
+                            <a class="nav-link active wd-font-13px wd-font-bold wd-color-black"
+                               aria-current="page" href="for-you.html">For you
+                                <div class="wd-highlight"></div></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link wd-font-13px wd-color-lightgray" href="trending.html">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link wd-font-13px wd-color-lightgray" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link wd-font-13px wd-color-lightgray" href="sports.html">Sports</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link wd-font-13px wd-color-lightgray" href="entertainment.html">Entertainment</a>
+                        </li>
+                    </ul>
+
+                    <div class="card mt-1">
+                        <div class="wd-border-transparent"></div>
+                        <img src="tennis.jpeg" class="card-img-top ">
+                        <div class="wd-border-transparent wd-absolute-onimg wd-color-white">
+                            <div class="wd-font-10px">Tennis Tournament · LIVE</div>
+                            <div class="wd-font-15px wd-font-bold">Australian Open 2023</div>
+                        </div>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="wd-color-lightgray wd-font-13px">Politics・Trending</div>
+                                        <div class="wd-font-13px wd-font-bold">Seizures</div>
+                                        <div class="wd-color-lightgray wd-font-13px">4,953 Tweets</div>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa fa-ellipsis-h wd-color-lightgray"></i>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="wd-font-13px wd-font-bold">#InfinityPool</div>
+                                        <div class="wd-color-lightgray wd-font-13px">See the electrifying thriller
+                                            Infinity Poolin theaters-if you dare</div>
+                                        <div class="wd-color-lightgray wd-font-13px">
+                                            <i class="fa fa-square-arrow-up-right"></i>Promoted by NEON</div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="wd-color-lightgray wd-font-13px">Sports・Trending</div>
+                                        <div class="wd-font-13px wd-font-bold">RIP Bean</div>
+                                        <div class="wd-color-lightgray wd-font-13px">18K Tweets</div>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa fa-ellipsis-h wd-color-lightgray"></i>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="wd-color-lightgray wd-font-13px">Politicss・Trending</div>
+                                        <div class="wd-font-13px wd-font-bold">Durham</div>
+                                        <div class="wd-color-lightgray wd-font-13px wd-float-left wd-padding-right-3">Trending with</div>
+                                        <div class="wd-color-lightgray wd-font-13px wd-twitter-blue">Barr, Barr</div>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa fa-ellipsis-h wd-color-lightgray"></i>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="wd-color-lightgray wd-font-13px">Trending in Business and finance</div>
+                                        <div class="wd-font-13px wd-font-bold">#DirectedEvolution</div>
+                                        <div class="wd-color-lightgray wd-font-13px">172K Tweets</div>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa fa-ellipsis-h wd-color-lightgray"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-4 d-none d-lg-block">
+                    <div class="wd-border-transparent">
+                        <ul class="list-group wd-rounded-corner list-group-flush">
+                            <li class="list-group-item wd-background-lightgray wd-border-transparent">
+                                <div class="wd-font-15px wd-font-bold">Who to follow</div>
+                            </li>
+                            <li class="list-group-item wd-background-lightgray wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="neu.jpeg" class="wd-float-left rounded-circle wd-item-height-40">
+                                    </div>
+                                    <div class="col-7 not-padding wd-float-left">
+                                        <div class="wd-font-13px wd-font-bold wd-float-left ">Northeastern U.</div>
+                                        <i class="fa fa-check-circle wd-float-left wd-padding-left-3 wd-font-13px wd-relative-top-3"
+                                           style="color: #00acee"></i><br>
+                                        <div class="wd-color-lightgray wd-font-13px">@Northeastern</div>
+                                    </div>
+                                    <div class="col-2 wd-vertically-centered">
+                                        <button type="button" class="btn btn-primary rounded-pill wd-font-13px btn-sm btn-dark">Follow</button>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="list-group-item wd-background-lightgray wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="matt.jpeg" class="wd-float-left rounded-circle wd-item-height-40">
+                                    </div>
+                                    <div class="col-7 not-padding wd-float-left">
+                                        <div class="wd-font-13px wd-font-bold wd-float-left ">Matt Wallace</div>
+                                        <i class="fa fa-check-circle wd-float-left wd-padding-left-3 wd-font-13px wd-relative-top-3"
+                                           style="color: #00acee"></i><br>
+                                        <div class="wd-color-lightgray wd-font-13px">@MattWallace888</div>
+                                    </div>
+                                    <div class="col-2 wd-vertically-centered">
+                                        <button type="button" class="btn btn-primary rounded-pill wd-font-13px btn-sm btn-dark">Follow</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item wd-background-lightgray wd-border-transparent">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img src="pointsbet.png" class="wd-float-left rounded-circle wd-item-height-40">
+                                    </div>
+                                    <div class="col-7 not-padding wd-float-left">
+                                        <div class="wd-font-13px wd-font-bold wd-float-left ">PointsBet Sportsb...</div>
+                                        <i class="fa fa-check-circle wd-float-left wd-padding-left-3 wd-font-13px wd-relative-top-3"
+                                           style="color: goldenrod"></i><br>
+                                        <div class="wd-color-lightgray wd-font-13px">@PointsBetUSA</div>
+                                        <div class="wd-color-lightgray wd-font-10px">
+                                            <i class="fa fa-square-arrow-up-right"></i>Promoted</div>
+                                    </div>
+                                    <div class="col-2 wd-vertically-centered">
+                                        <button type="button" class="btn btn-primary rounded-pill wd-font-13px btn-sm btn-dark">Follow</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item wd-background-lightgray wd-border-transparent">
+                                <div class="wd-font-13px wd-twitter-blue">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <hr class="wd-vertical-line wd-vertical-line-right">
-        <a href="explore-settings.html">
-            <img class="wd-setting" src="5.png"/>
-        </a>
-        <br><br>
-
-        <div>
-            <div class="wd-hyperlink-one">For You</div>
-            <div class="wd-hyperlink">Trending</div>
-            <div class="wd-hyperlink">COVID-19</div>
-            <div class="wd-hyperlink">News</div>
-            <div class="wd-hyperlink">Sports</div>
-            <div class="wd-hyperlink">Entertainment</div>
-        </div>
-
-        <br><br>
-        <hr class="wd-hr"><br>
-        <hr class="wd-hr wd-hr-location">
-
-        <div class="wd-c-topic">Trending in Science</div>
-        <div class="wd-c-title">Starship</div>
-        <div class="wd-c-topic">55.5K Tweets</div><br>
-
-        <div class="wd-c-topic">Trending in United States</div>
-        <div class="wd-c-title">Wonder Bread</div>
-        <div class="wd-c-topic">1259 Tweets</div>
-
-        <hr class="wd-hr">
-
-        <div class="wd-d-author-name">The New York Times</div>
-        <div class="wd-d-time">· Yesterday</div>
-        <img class="wd-d-picture" src="6.webp"/><br>
-        <div class="wd-d-content">CNN's Cuomo conundrum: A star anchor with a brother in trouble</div>
-
-        <br><br><br><br>
-        <hr class="wd-hr">
-
-        <div class="wd-d-author-name">Blooming Option</div>
-        <div class="wd-d-time">· Yesterday</div>
-        <img class="wd-d-picture" src="7.jpeg"/><br>
-        <div class="wd-d-content">Thinking about getting a booster? Read this first.</div>
-
-        <br><br><br><br>
-        <hr class="wd-hr">
-
-        <div class="wd-e-topic">COVID-19 · LIVE</div>
-        <img class="wd-d-picture" src="8.jpeg"/><br>
-        <div class="wd-d-content">COVID-19: News and updates for Massachusetts</div>
-
-        <br><br><br><br>
-        <hr class="wd-hr">
-
-        <div class="wd-e-topic">Soup's On · LIVE</div>
-        <img class="wd-d-picture" src="9.jpeg"/><br>
-        <div class="wd-d-content">Everyone knows it’s the best food.</div>
-
-        <br><br><br><br>
-        <hr class="wd-hr">
     </body>
 </html>
