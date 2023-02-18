@@ -1,0 +1,70 @@
+input::placeholder {
+    background-color: white;
+    font-size: 13px;
+}
+.pos-relative-left-3 {
+    position: relative;
+    left: 3px;
+}
+
+.item-height-40 {
+    height: 40px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.color-lightgray {
+    color: rgb(110,118,125);
+}
+
+.img-75{
+    height: 75px;
+}
+
+.text-indent {
+    text-indent: 35px;
+}
+
+.zindex-bring-to-front {
+    z-index: 5;
+    position: relative;
+}
+
+.input-border {
+    border-color: transparent;
+}
+
+.border-lightgray {
+    border: rgb(110,118,125) solid 1px;
+}
+
+.border-top-lightgray {
+    border-top: rgb(110,118,125) solid 1px;
+}
+
+.search-position {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.overlaid-text {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    font-size: 30px;
+}
+
+.font-14px {
+    font-size: 14px;
+}
