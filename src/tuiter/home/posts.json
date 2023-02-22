@@ -1,0 +1,17 @@
+[{ "_id": 123, "avatar": "../images/spacex.png", "userName": "SpaceX",
+  "handle": "SpaceX",
+  "content": "Dennis and Akiko Tito are the first crewmembers on Starship's second commercial spaceflight around the Moon",
+  "time": "23h",   "image": "../images/post1.jpeg",
+  "comment": 595,
+  "repost": 1168,
+  "like": "11.1K"
+},
+  { "_id": 234, "avatar": "../images/musk.webp",   "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "content": "All things in moderation, especially content moderation",
+    "time": "15h",   "image": "../images/post2.jpeg",
+    "comment": 4576,
+    "repost": 9387,
+    "like": "97K"}
+]
+
