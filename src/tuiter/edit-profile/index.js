@@ -74,6 +74,6 @@ function EditProfile () {
             </div>
         </div>
     );
-};
+}
 
 export default EditProfile;

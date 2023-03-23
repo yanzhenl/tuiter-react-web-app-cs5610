@@ -1,8 +1,9 @@
 import React from "react";
 import "./index.css";
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import {useDispatch} from "react-redux";
-import { clickLike, deleteTuit} from "./tuits-reducer";
+import { useDispatch } from "react-redux";
+import { deleteTuit } from "./tuits-reducer";
+import TuitsStats from "./tuits-stats";
 
 const TuitItem = (
     {
@@ -23,9 +24,6 @@ const TuitItem = (
     }
 ) => {
     const dispatch = useDispatch();
-    const handleLike = () => {
-        dispatch(clickLike(tuits))
-    }
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuit(id));
       }
@@ -45,22 +43,7 @@ const TuitItem = (
                     <span className="color-lightgray">· {tuits.time}</span>
                     <div>{tuits.tuit}</div>
                     <div className="row mt-2">
-                        <div className="col-3 color-lightgray">
-                            <i className="fa-regular fa-comment me-1"></i>
-                            <span>{tuits.replies}</span>
-                        </div>
-                        <div className="col-3 color-lightgray">
-                            <i className="fa-sharp fa-solid fa-repeat me-1"></i>
-                            <span>{tuits.retuits}</span>
-                        </div>
-                        <div className="col-3 color-lightgray">
-                            <i onClick={() => handleLike(tuits)} style={{cursor: "hand"}}
-                            className={`fa-heart me-1 ${tuits.liked ? "color-red fa-solid":"fa-regular"}`}></i>
-                            <span>{tuits.likes}</span>
-                        </div>
-                        <div className="col-3 color-lightgray">
-                            <i className="fa-solid fa-share-nodes"></i>
-                        </div>
+                        <TuitsStats tuits={tuits}/>
                     </div>
                 </div>
             </div>
