@@ -1,12 +1,16 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { useDispatch } from "react-redux";
-import { clickLike } from "./tuits-reducer";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
 function TuitsStats({tuits}) {
     const dispatch = useDispatch();
     const handleLike = () => {
-        dispatch(clickLike(tuits))
+        dispatch(updateTuitThunk({
+            ...tuits,
+            liked: !tuits.liked,
+            likes: tuits.liked ? tuits.likes - 1 : tuits.likes + 1,
+        }))
     }
     return(
         <div className="row">

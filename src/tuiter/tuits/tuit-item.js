@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 import TuitsStats from "./tuits-stats";
 
 const TuitItem = (
@@ -25,7 +25,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
       }
       
     return(
@@ -37,7 +37,7 @@ const TuitItem = (
                 <div className="col-10">
                     <i className="bi bi-x-lg float-end"
                         onClick={() => deleteTuitHandler(tuits._id)}></i>
-                    <span className="fw-bold me-1">{tuits.userName}</span>
+                    <span className="fw-bold me-1">{tuits.username}</span>
                     <span className="text-primary fa fa-check-circle me-1"></span>
                     <span className="color-lightgray">{tuits.handle}</span>
                     <span className="color-lightgray">· {tuits.time}</span>
