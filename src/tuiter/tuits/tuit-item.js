@@ -40,7 +40,7 @@ const TuitItem = (
                     <span className="fw-bold me-1">{tuits.username}</span>
                     <span className="text-primary fa fa-check-circle me-1"></span>
                     <span className="color-lightgray">{tuits.handle}</span>
-                    <span className="color-lightgray">· {tuits.time}</span>
+                    <span className="color-lightgray ms-1">· {tuits.time}</span>
                     <div>{tuits.tuit}</div>
                     <div className="row mt-2">
                         <TuitsStats tuits={tuits}/>
