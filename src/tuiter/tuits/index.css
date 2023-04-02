@@ -27,3 +27,11 @@
 .color-red {
     color: red;
 }
+
+.fg-color-black {
+    color: black;
+}
+
+.col-5-pieces {
+    width: 20% !important;
+}
